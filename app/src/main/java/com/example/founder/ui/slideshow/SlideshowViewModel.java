@@ -10,7 +10,9 @@ public class SlideshowViewModel extends ViewModel {
 
     public SlideshowViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("Enter your email: " +
+                "\n\n\nEnter credit card: " +
+                "\n\n\nEnter Password: ");
     }
 
     public LiveData<String> getText() {
